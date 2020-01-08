@@ -32,6 +32,9 @@
 
         echo "<br>The array without duplicates is:<br>";
         printArr(removeDups($numbers));
+
+    echo "<br>New associative array:<br>";
+    print_r(distribution($numbers));
     ?>
 
 </body>
