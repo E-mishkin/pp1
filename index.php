@@ -9,6 +9,7 @@
     // Turn on error reporting - this is critical!
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
+
 ?>
 
 <!doctype html>
@@ -22,6 +23,15 @@
 </head>
 <body>
     <h1>Pair Program 1</h1>
+    <?php
+        $numbers = array(7, 9, 8, 9, 8, 8, 6);
+        function printArr($numbers) {
+            foreach($numbers as $number) {
+                echo $number.'<br>';
+            }
+        }
+        printArr($numbers);
+    ?>
 
 </body>
 </html>
