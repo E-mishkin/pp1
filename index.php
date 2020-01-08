@@ -29,6 +29,9 @@
         printArr($numbers);
 
         echo "The largest number is: ".largest($numbers);
+
+        echo "<br>The array without duplicates is:<br>";
+        printArr(removeDups($numbers));
     ?>
 
 </body>
